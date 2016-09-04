@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: brooks-mershon-browsers.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "Mozil33:online"
+You've used 27 entries,
+            1791 wiz_defined-function locations,
+            553 strings with 7013 characters,
+and the built_in function-call counts, 3126 in all, are:
+= -- 270
+> -- 50
+< -- 0
++ -- 34
+- -- 7
+* -- 20
+:= -- 349
+add.period$ -- 79
+call.type$ -- 27
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 149
+empty$ -- 499
+format.name$ -- 7
+if$ -- 811
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 2
+newline$ -- 136
+num.names$ -- 3
+pop$ -- 216
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 81
+stack$ -- 0
+substring$ -- 0
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 3
+width$ -- 29
+write$ -- 244
+(There was 1 warning)

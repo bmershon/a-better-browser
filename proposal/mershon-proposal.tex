@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thin Sectioned Essay
+% LaTeX Template
+% Version 1.0 (3/8/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original Author:
+% Nicolas Diaz (nsdiaz@uc.cl) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 11pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
+
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{graphicx} % Required for including pictures
+\usepackage{wrapfig} % Allows in-line images
+\usepackage{hyperref}
+
+\usepackage{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Required for accented characters
+\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+
+\makeatletter
+\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+
+\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
+\begin{flushright} % Right align
+{\LARGE\@title} % Increase the font size of the title
+
+\vspace{50pt} % Some vertical space between the title and author name
+
+{\large\@author} % Author name
+\\\@date % Date
+
+%\vspace{40pt} % Some vertical space between the author block and abstract
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\title{\textbf{The Inescapable Escrow}\\ % Title
+Electronic playgrounds depend on trust} % Subtitle
+
+\author{\textsc{Brooks Mershon} % Author
+\\{\textit{Duke University}} % Institution
+\\{\textit{CS 342s}}} % Institution
+
+\date{\today} % Date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT AND KEYWORDS
+%----------------------------------------------------------------------------------------
+
+%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+
+
+%\hspace*{3,6mm}\textit{Keywords:} lorem , ipsum , dolor , sit amet , lectus % Keywords
+
+\vspace{30pt} % Some vertical space between the abstract and first section
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\section*{Escrows everywhere}
+
+One of the first papers \cite{40673} I read at the beginning of the course discussed a computational model for distributed electronic rights over distributed networks. I stumbled across this Google Research paper while searching for articles related to digital rights management. To my pleasant surprise, the authors explored the issue of \textit{smart contracts}, or arrangements which must be carried out between mutually suspicious parties in an asynchronous computational model. We can think of the transfer of money as one obvious situation in which contracts come into play.
+
+I spent many hours following the concrete examples that the paper provides of an extension that could be made to the JavaScript language to support secure execution of contracts.  The concrete examples aimed at exploring the concept of trust in a real-world application were exciting for me because I have invested a significant amount of time in learning the intracies of a matured JavaScript. The JavaScript I happen to care about is one that is not only ubiquitous, but built tough for servers, built for modularity, and designed to remove the warts that have kept others from realizing its real potential in the past. In just 42 lines of code, the paper illustrates the details of an escrow exchange contract.
+
+The concrete examples and code provide by the authors made me wonder about the deeper philosphical questions of trust, risk, and the need for a trusted third-party that arise in a wide variety of transactions. The need for trust in the form of an \textit{escrow} seemed inescapable, and my interest in learning more about the way in which escrows pop up in various electronic applicaitons had been piqued.
+
+\section*{Research project proposal}
+
+My goal for this research project is to examine several other articles from Google Research and elsewhere that do a good job of illustrating ways in which \textit{the escrow} pops up in various applications. As I saw in the first paper I read on smart contracts, the best way for me to get a feel for the way \textit{escrows} arise is by finding material that clearly explains concrete examples of the escrow in action. The exciting aspect of this project will be gaining an apprecition for the importance of the escrow through clearly articulated examples, code snippets, and diagrams that I will find in various papers I read.
+
+So far, I have found the following potential papers:
+
+\begin{enumerate}
+	\item Distributed Electronic Rights in Javascript \cite{40673}
+	\item Swapsies on the Internet: First Steps towards Reasoning about Risk and Trust in an Open World \cite{43808}
+	
+	\item Reasoning about Risk and Trust in an Open World \cite{44272}
+	
+	\item \href{http://publications.csail.mit.edu/lcs/pubs/pdf/MIT-LCS-TR-636.pdf}{Failsafe Key Escrow} (CSAIL)
+\end{enumerate}
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{unsrt}
+
+\bibliography{references}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

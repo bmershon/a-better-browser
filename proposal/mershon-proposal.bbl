@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{40673}
+Mark~S. Miller, Tom~Van Cutsem, and Bill Tulloh.
+\newblock Distributed electronic rights in javascript.
+\newblock In {\em ESOP'13 22nd European Symposium on Programming}, 2013.
+
+\bibitem{43808}
+Sophia Drossopoulou, James Noble, and Mark~S. Miller.
+\newblock Swapsies on the internet: First steps towards reasoning about risk
+  and trust in an open world.
+\newblock In {\em Tenth Workshop on Programming Languages and Analysis for
+  Security (PLAS 2015)}, 2015.
+
+\bibitem{44272}
+Sophia Drossopoulou, James Noble, Toby Murray, and Mark~S. Miller.
+\newblock Reasoning about risk and trust in an open world.
+\newblock Technical report, Victoria University of Wellington, 2015.
+
+\end{thebibliography}
